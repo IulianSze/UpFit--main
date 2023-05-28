@@ -106,8 +106,15 @@ namespace UpFit__main.Controllers
         // POST: Users/Register
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Register([Bind(Include = "UserID,SubscriptionTypeFK,UserName,Password,FirstName,LastName,Gender,Age,Height,Weight,KcalDaily")] User user)
+        public ActionResult Register([Bind(Include = "UserID,SubscriptionTypeFK,UserName,Password,FirstName,LastName,Gender,Age,Height,Weight, KcalDaily,Lifestyle")] User user)
         {
+            if (user.Gender == "M") {
+                user.KcalDaily = (int)Math.Round( user.Lifestyle * (66 + (13.7 * user.Weight) + (5 * user.Height) - (6.8 * user.Age)));
+                    }
+            else
+            {
+                user.KcalDaily = (int)Math.Round(user.Lifestyle * (655 + (9.5 * user.Weight) + (1.8 * user.Height) - (4.7 * user.Age)));
+            }
             if (ModelState.IsValid)
             {
                 db.users.Add(user);

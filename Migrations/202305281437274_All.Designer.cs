@@ -7,13 +7,13 @@ namespace UpFit__main.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class UserTableCreated1 : IMigrationMetadata
+    public sealed partial class All : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(UserTableCreated1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(All));
         
         string IMigrationMetadata.Id
         {
-            get { return "202305231608129_UserTableCreated1"; }
+            get { return "202305281437274_All"; }
         }
         
         string IMigrationMetadata.Source

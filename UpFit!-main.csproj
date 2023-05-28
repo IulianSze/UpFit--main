@@ -135,49 +135,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202305180915018_UserTableCreated.cs" />
-    <Compile Include="Migrations\202305180915018_UserTableCreated.designer.cs">
-      <DependentUpon>202305180915018_UserTableCreated.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305190813158_AddedLoginRegistration.cs" />
-    <Compile Include="Migrations\202305190813158_AddedLoginRegistration.designer.cs">
-      <DependentUpon>202305190813158_AddedLoginRegistration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305191042498_AddedAdminModel.cs" />
-    <Compile Include="Migrations\202305191042498_AddedAdminModel.designer.cs">
-      <DependentUpon>202305191042498_AddedAdminModel.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305191044562_AddedAdminModel2.cs" />
-    <Compile Include="Migrations\202305191044562_AddedAdminModel2.designer.cs">
-      <DependentUpon>202305191044562_AddedAdminModel2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305221911392_videofiles.cs" />
-    <Compile Include="Migrations\202305221911392_videofiles.designer.cs">
-      <DependentUpon>202305221911392_videofiles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305231314339_Aliments.cs" />
-    <Compile Include="Migrations\202305231314339_Aliments.designer.cs">
-      <DependentUpon>202305231314339_Aliments.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305231608129_UserTableCreated1.cs" />
-    <Compile Include="Migrations\202305231608129_UserTableCreated1.designer.cs">
-      <DependentUpon>202305231608129_UserTableCreated1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305261851272_Coaches.cs" />
-    <Compile Include="Migrations\202305261851272_Coaches.designer.cs">
-      <DependentUpon>202305261851272_Coaches.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305271946203_Initial.cs" />
-    <Compile Include="Migrations\202305271946203_Initial.designer.cs">
-      <DependentUpon>202305271946203_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305272031593_AddedMeal.cs" />
-    <Compile Include="Migrations\202305272031593_AddedMeal.designer.cs">
-      <DependentUpon>202305272031593_AddedMeal.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305272113335_AddedMeal1.cs" />
-    <Compile Include="Migrations\202305272113335_AddedMeal1.designer.cs">
-      <DependentUpon>202305272113335_AddedMeal1.cs</DependentUpon>
+    <Compile Include="Migrations\202305281437274_All.cs" />
+    <Compile Include="Migrations\202305281437274_All.designer.cs">
+      <DependentUpon>202305281437274_All.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Admin.cs" />
@@ -303,38 +263,8 @@
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202305180915018_UserTableCreated.resx">
-      <DependentUpon>202305180915018_UserTableCreated.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305190813158_AddedLoginRegistration.resx">
-      <DependentUpon>202305190813158_AddedLoginRegistration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305191042498_AddedAdminModel.resx">
-      <DependentUpon>202305191042498_AddedAdminModel.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305191044562_AddedAdminModel2.resx">
-      <DependentUpon>202305191044562_AddedAdminModel2.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305221911392_videofiles.resx">
-      <DependentUpon>202305221911392_videofiles.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305231314339_Aliments.resx">
-      <DependentUpon>202305231314339_Aliments.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305231608129_UserTableCreated1.resx">
-      <DependentUpon>202305231608129_UserTableCreated1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305261851272_Coaches.resx">
-      <DependentUpon>202305261851272_Coaches.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305271946203_Initial.resx">
-      <DependentUpon>202305271946203_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305272031593_AddedMeal.resx">
-      <DependentUpon>202305272031593_AddedMeal.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305272113335_AddedMeal1.resx">
-      <DependentUpon>202305272113335_AddedMeal1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305281437274_All.resx">
+      <DependentUpon>202305281437274_All.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

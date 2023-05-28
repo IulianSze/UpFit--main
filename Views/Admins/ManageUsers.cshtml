@@ -40,6 +40,9 @@
         <th>
             @Html.DisplayNameFor(model => model.KcalDaily)
         </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lifestyle)
+        </th>
         <th></th>
     </tr>
 
@@ -72,6 +75,9 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.KcalDaily)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lifestyle)
             </td>
             <td>
                 @Html.ActionLink("Details", "Details", new { id = item.UserID }) |
