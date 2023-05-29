@@ -191,6 +191,25 @@ namespace UpFit__main.Controllers
             base.Dispose(disposing);
         }
 
+        [HttpGet]
+        public ActionResult VideoList()
+        {
+            using (CodeFirstDb db = new CodeFirstDb())
+            {
+                List<UploadClass> Videolist = new List<UploadClass>();
+                foreach (UploadClass video in db.videos)
+                {
+                    UploadClass dbVideo = new UploadClass();
+                    {
+                        dbVideo.Vname = video.Vname;
+                        dbVideo.Vpath = video.Vpath.ToString();
+                    };
+                    Videolist.Add(dbVideo);
+                }
+                return View(Videolist);
+            }
+        }
+
 
     }
 }
